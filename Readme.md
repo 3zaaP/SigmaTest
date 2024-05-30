@@ -21,7 +21,7 @@ This project is a web application with an API for storing and managing job candi
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/3zaaP/SigmaTest
    cd JobCandidateHub
    ```
 
