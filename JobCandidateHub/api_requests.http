@@ -1,0 +1,23 @@
+### Add or Update Candidate
+POST http://localhost:5000/api/candidates
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "phoneNumber": "1234567890",
+  "email": "john.doe@example.com",
+  "callTimeInterval": "9 AM - 5 PM",
+  "linkedInProfileUrl": "https://linkedin.com/in/johndoe",
+  "gitHubProfileUrl": "https://github.com/johndoe",
+  "comment": "This is a comment"
+}
+
+### Get Candidate by Email
+GET http://localhost:5000/api/candidates/john.doe@example.com
+
+### List All Candidates
+GET http://localhost:5000/api/candidates
+
+### Delete Candidate by Email
+DELETE http://localhost:5000/api/candidates/john.doe@example.com
